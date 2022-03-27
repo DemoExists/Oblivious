@@ -2589,7 +2589,7 @@ SettingSection:AddBind({text = "Open / Close", flag = "UI Toggle", nomouse = tru
     library:Close();
 end});
 
-SettingSection:AddColor({text = "Accent Color", flag = "Menu Accent Color", color = Color3.fromRGB(3, 252, 194), callback = function(color)
+SettingSection:AddColor({text = "Accent Color", flag = "Menu Accent Color", color = Color3.fromRGB(255, 229, 31), callback = function(color)
     if library.currentTab then
         library.currentTab.button.TextColor3 = color;
     end
@@ -2604,7 +2604,7 @@ local backgroundlist = {
     Flowers = "rbxassetid://6071575925",
     Circles = "rbxassetid://6071579801",
     Hearts = "rbxassetid://6073763717",
-	  None = "nil"
+    None = "nil"
 };
 
 -- [Background List]
