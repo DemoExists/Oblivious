@@ -30,7 +30,7 @@ local library = {
 	tabs = {},
 	draggable = true,
 	flags = {},
-	title = "velocity.vip | Universal",
+	title = "Oblivity | Universal",
 	open = false,
 	mousestate = inputService.MouseIconEnabled,
 	popup = nil,
@@ -40,8 +40,8 @@ local library = {
 	notifications = {},
 	tabSize = 0,
 	theme = {},
-	foldername = "velocity.vip",
-	fileext = ".vip"
+	foldername = "oblivity",
+	fileext = ".sex"
 }
 
 getgenv().library = library
